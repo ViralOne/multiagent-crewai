@@ -13,7 +13,11 @@ This repository showcases a collaborative framework using CrewAI to efficiently 
 ### 2. Agent and OpenAIWrapper Integration
 - **Agent Creation:** Illustrates the creation of agents with specific roles and objectives.
 - **OpenAI Integration:** Shows integration with the OpenAIWrapper for specific agent tasks.
-   
+
+### 3. Local Model with LM Studio Server
+- **Model Setup:** Incorporates a local machine learning model, specifically leveraging the Zephyr Beta 7b version for testing purposes. While testing, the usage of a smaller model was considered; however, most of the time it would stop due to iteration limit or time limit. 
+- **Server Configuration:** Configured to operate on port 3008.
+
 ### Running the Code
 1. Navigate to the project directory.
 2. Execute the main file or specific modules:

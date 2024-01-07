@@ -12,7 +12,7 @@ taskResearch = Task(
 )
 
 taskWrite = Task(
-  description=f"""Using the insights provided, develop an engaging youtube short video
+  description=f"""Using the insights provided, develop an engaging blog
   that highlights {user_input}.
   Your post should be informative yet accessible, giving the best details that the user need.
   Make it sound cool, avoid complex words so it doesn't sound like AI.
