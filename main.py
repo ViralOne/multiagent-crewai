@@ -9,13 +9,11 @@ from agents.product_research import data_synthesis_agent
 crew = Crew(
     agents=[
         lead_market_analyst, 
-        competitive_intelligence_specialist, 
-        data_synthesis_agent
+        competitive_intelligence_specialist
       ],
     tasks=[
         task_lead_market_analyst, 
-        task_competitive_intelligence_specialist, 
-        task_data_synthesis
+        task_competitive_intelligence_specialist
        ],
     verbose=True
 )
